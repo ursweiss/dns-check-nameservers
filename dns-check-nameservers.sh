@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#### License: GPLv3, see LICENSE file for details
+
+
 #### CONFIG - begin ####
 # Nameserver to query?
 QUERY_NAMESERVER="8.8.8.8"
@@ -12,7 +15,7 @@ CHECK_NAMESERVERS=1
 QUERY_DELAY="1"
 
 # Column widths
-WIDTH_DOMAIN=30
+WIDTH_DOMAIN=67        # IPv6 reverse entries are 64 characters long
 WIDTH_NAMESERVERS=25
 
 # Show headers?
